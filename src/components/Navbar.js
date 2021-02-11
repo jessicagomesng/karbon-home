@@ -17,38 +17,7 @@ function NavBar() {
                 </a>
             </div>
             <nav className="navbar">
-                <div className="nav-subMenu"><span>Product</span>
-                    {/* <div className="subMenu-toggler">
-                        <div className="subMenu-container subMenu-container-product">
-                            <div className="subMenu-col subMenu-product-col-1">
-                                <h4 className="subMenu-title">Solutions</h4>
-                                <a className="subMenu-link" href="/accounting">
-                                <strong>How Karbon helps your accounting firm</strong>
-                                <small>Align your firm with a single place to communicate and collaborate on work.</small>
-                                <span class="expand-link">Learn more</span>
-                                </a>
-                                <a className="subMenu-link" href="/plan-work">Plan Work</a>
-                                <a className="subMenu-link" href="/deliver-work">Deliver Work</a>
-                                <a className="subMenu-link" href="/optimize-work">Optimize Work</a>
-                            </div>
-                            <div className="subMenu-col subMenu-product-col-2">
-                                <h4 className="subMenu-title">Tour</h4>
-                                <a className="subMenu-link" href="/workflow-automation">Workflow Automation</a>
-                                <a className="subMenu-link" href="/project-management">Project Management</a>
-                                <a className="subMenu-link" href="/team-collaboration">Team Collaboration</a>
-                                <a className="subMenu-link" href="/client-management">Client Management</a>
-                                <a className="subMenu-link" href="/performance-analytics">Performance Analytics</a>
-                                <a className="subMenu-link" href="/centralized-knowledge">Centralized Knowledge</a>
-                            </div>
-                            <div className="subMenu-col subMenu-product-col-3">
-                                <h4 className="subMenu-title">Tech</h4>
-                                <a className="subMenu-link" href="/security">Security</a>
-                                <a className="subMenu-link" href="/integrated-ecosystem">Integration</a>
-                                <a className="subMenu-link" href="/enterprise">Enterprise</a>
-                            </div>
-                        </div>
-                    </div> */}
-                </div>
+                <div className="nav-subMenu"><span>Product</span></div>
                 <Link to="/services" className="MenuLink">Services</Link>
                 <div className="nav-subMenu"><span>Resources</span></div>
                 <Link to="/pricing" className="MenuLink">Pricing</Link>

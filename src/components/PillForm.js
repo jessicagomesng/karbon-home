@@ -1,18 +1,6 @@
 import React from 'react';
 import './css/PillForm.css';
 
-// const PillForm = () => {
-//     return (
-//         <form className="PillForm">
-//             <input id="pillFormEmail" name="email" type="email" placeholder="Your work email address" className="PillInput" />
-//             <button type="submit" className="PillButton">Get Started</button>
-//         </form>
-//     )
-// }
-
-// export default PillForm;
-
-// rewrite as constant 
 class PillForm extends React.Component {
     constructor(props) {
         super(props);
