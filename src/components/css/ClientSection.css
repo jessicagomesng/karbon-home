@@ -1,0 +1,56 @@
+#JeffreysHenry {
+    width: 11.5%;
+    height: 11.5%;
+}
+
+#Aprio {
+    width: 10.2%;
+    height: 10.2%;
+    transform: translate(0, 30%);
+}
+
+#Catalyst {
+    width: 8%;
+    height: 8%;
+    transform: translate(0, -20%);
+}
+
+#Armanino {
+    width: 9.6%;
+    height: 9.6%;
+    transform: translate(0, -25%);
+}
+
+#Viden {
+    width: 7.6%;
+    height: 7.6%;
+}
+
+#clients {
+    background-color: #FFF;
+}
+
+.container-clients { 
+    width: 76%;
+    margin: 0 auto;
+    padding: 6rem;
+    text-align: center;
+}
+
+.client-description {
+    font-family: 'MetricSemibold', Arial, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+    color: #979797;
+    text-transform: uppercase;
+    padding-bottom: 3.5em;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.client-logo {
+    filter: grayscale(100%);
+}

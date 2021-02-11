@@ -1,0 +1,16 @@
+p.footer-text { 
+    color: #FFF;
+    margin-top: 0;
+    font-family: 'MetricRegular', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+footer { 
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+footer .PillForm {
+    padding-bottom: 0;
+}

@@ -1,0 +1,61 @@
+header {
+    background-color: #000;
+}
+
+h1.main-hero-title { 
+    font-family: 'MetricSemibold', Arial, serif;
+    padding-top: 15%;
+    font-size: 3.2rem;
+}
+
+.main-hero-subtitle {
+    font-family: 'MetricMedium', Arial, serif;
+    font-size: 1.25rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1em;
+}
+
+#main-hero {
+    color: #fff;
+    background-color: #000;
+}
+
+#main-hero-image { 
+    width: 80%;
+}
+
+.main-text { 
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+div.content { 
+    text-align: center;
+}
+
+.modal-video {
+    position: absolute;
+    inset: 10%;
+    border: 1px solid #000;
+    background: #000; 
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 0;
+}
+
+#close-modal-video {
+    position: absolute;
+    left: 90%;
+    top: 2%;
+    cursor: pointer;
+    font-size: 3rem;
+    background: transparent;
+    color: #FFF;
+    font-family: 'MetricMedium', Arial, Helvetica, sans-serif;
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    
+}

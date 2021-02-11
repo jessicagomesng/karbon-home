@@ -1,0 +1,166 @@
+.home-section { 
+    display: flex;
+    align-items: center;
+}
+
+.home-section-text { 
+    width: 50%;
+    padding-left: 20%;
+    padding-right: 12%;
+}
+
+.home-section-images {
+    width: 50%;
+    position: relative;
+}
+
+.home-section-image { 
+    width: 55%;
+}
+
+/* Typography */
+h6.subheading {
+    margin: 0;
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #E07064;
+    text-transform: uppercase;
+}
+
+.home-section-title { 
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.home-section-description { 
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+.learn-more { 
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.learn-more::after { 
+    content: '⭢';
+    position: absolute;
+    left: 95%;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.icons { 
+    margin-top: 2em;
+    display: flex;
+}
+
+.icon-vector {
+    width: 24px;
+    height: 24px;
+}
+
+p.icon-caption { 
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+#Visibility-overlay-one {
+    position: absolute;
+    width: 50%;
+    left: 2%;
+    top: 60%;
+}
+/* 
+#Visibility-overlay-two {
+    position: absolute;
+    width: 30%;
+    top: 55%;
+    left: 2%;
+} */
+
+#Efficiency-overlay-two {
+    position: absolute;
+    width: 30%;
+    top: 112%;
+    left: 3%;
+}
+
+#Collaboration-overlay-one {
+    position: absolute;
+    width: 40%;
+    left: 8%;
+    top: 70%;
+}
+
+/* #Collaboration-overlay-two {
+    position: absolute;
+    width: 40%;
+    top: 100%;
+    left: 3%;
+} */
+
+.overlay { 
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in;
+}
+
+.overlay.appear { 
+    opacity: 1;
+}
+
+#Collaboration-overlay-two {
+    position: absolute;
+    width: 40%;
+    top: 100%;
+    left: 200%;
+    transition: 1.5s ease;
+    opacity: 0;
+}
+
+#Collaboration-overlay-two.appear {
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    opacity: 1;
+}
+
+#Efficiency-overlay-one {
+    position: absolute;
+    width: 50%;
+    left: 2%;
+    top: -30%;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+#Efficiency-overlay-one.appear {
+    opacity: 1;
+    position: absolute;
+    width: 50%;
+    left: 2%;
+    top: 70%;
+}
+
+#Visibility-overlay-two {
+    position: absolute;
+    width: 30%;
+    top: 80%;
+    left: 20%;
+    transition: 1s ease;
+}
+
+#Visibility-overlay-two.appear {
+    position: absolute;
+    width: 30%;
+    top: 55%;
+    left: 2%;
+}

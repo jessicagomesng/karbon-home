@@ -1,0 +1,28 @@
+.home-section {
+    height: 660px;
+}
+
+div.home-cards section:nth-child(odd) {
+    background-color: #FBFBFB;
+}
+
+div.home-cards section:nth-child(even) {
+    background-color: #FFF;
+}
+
+div.home-cards section:nth-child(even) div.home-section-images {
+    order: -1;
+}
+
+div.home-cards section:nth-child(even) div.home-section-images img {
+    margin-left: 40%;
+}
+
+div.home-cards section:nth-child(even) div.home-section-text {
+    padding-left: 3%;
+    padding-right: 25%;
+}
+
+.home-section.Collaboration { 
+    height: 800px;
+}

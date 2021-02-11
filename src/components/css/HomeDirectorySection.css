@@ -1,0 +1,54 @@
+#home-directory {
+    background-color: #FBFBFB;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.directory-text {
+    margin: 0;
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.directory-links { 
+    display: flex;
+    padding-left: 38.5%;
+    padding-top: 2em;
+}
+
+.directory-link { 
+    border: 1px solid #EE7F73;
+    height: 40px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s linear;
+}
+
+.directory-link.current-active {
+    background-color: #EE7F73;
+}
+
+.directory-link.current-active a {
+    color: #FFF;
+}
+
+.directory-link:nth-child(1) {
+    border-right: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.directory-link:nth-child(2) {
+    border-radius: 0;
+}
+
+.directory-link:nth-child(3) {
+    border-left: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.directory-link a {
+    text-decoration: none;
+    color: #000;
+}

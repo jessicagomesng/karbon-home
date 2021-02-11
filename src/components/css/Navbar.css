@@ -1,0 +1,125 @@
+header {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    width: 100%;
+    padding: 15px 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.navbar { 
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 16px;
+    min-height: 64px;
+    line-height: 32px;
+    margin: 0px;
+    font-size: 1.125rem;
+    text-rendering: optimizeLegibility;
+}
+
+.navbar a, span {
+    color: #FFF;
+    text-decoration: none;
+    padding-left: 3em;
+}
+
+.nav-subMenu { 
+    margin: 0px 16x;
+    color: rgb(43, 43, 43);
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-subMenu::after {
+    display: inline-block;
+    content: "^";
+    color: #FFF;
+    width: 10.6px;
+    height: 9px;
+    margin: 0px 0px 0px 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 60%;
+}
+
+.subMenu-toggler {
+    position: absolute;
+    top: calc(100% + 20px);
+    display: block;
+}
+
+.button-get-started {
+    display: inline-block;
+    border: none;
+    margin: 0px;
+    background-color: rgb(238, 127, 115);
+    border-radius: 500px;
+    transition: background-color 0.1s ease-out 0s;
+    white-space: nowrap;
+    padding: 0px 20px;
+    width: 162px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.button-get-started::after {
+    content: '➔';
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.button {
+    font-family: 'MetricSemibold', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.button-login {
+    padding: 0px 20px;
+}
+
+.modal-form { 
+    text-align: center;
+    color: rgb(43, 43, 43);
+    width: 480px;
+    max-width: calc(100vw - 30px);
+    padding: 40px;
+    min-height: unset;
+    position: relative;
+    font-size: 20px;
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    z-index: 1;
+    top: 25%;
+    left: 35%;
+}
+
+.modal-form span.font-change { 
+    color: #E07064;
+    padding-left: 0;
+}
+
+.modal-form form.PillForm {
+    padding-bottom: 0;
+}
+
+.modal-form h3.title { 
+    margin-top: 0;
+}
